@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="registration.jsp" method="post">
+		<table>
+			<tr>
+				<td>Student Id : </td>
+				<td><input type="text" name="id" /></td>
+			</tr>
+			<tr>
+				<td>Student Name : </td>
+				<td><input type="text" name="name" /></td>
+			</tr>
+			<tr>
+				<td>Student Email : </td>
+				<td><input type="text" name="email" /></td>
+			</tr>
+			<tr>
+				<td>Student Mobile : </td>
+				<td><input type="text" name="mobile" /></td>
+			</tr>
+			<tr>
+                    <td><label>Gender : </label></td>
+                    <td>
+                        <label for="male">MALE</label><input type="radio"  name="gender" value="male">
+                        <label for="female">FEMALE</label><input type="radio" name="gender" value="female">
+                    </td>
+                </tr>
+			<tr>
+				<td><input type="reset" value="Reset" /></td>
+				<td><input type="submit" value="Submit" /></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
